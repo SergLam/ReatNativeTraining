@@ -19,6 +19,7 @@
 		4117DFA262B992E54F6462C1 /* libPods-ReatNativeTrainingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8ECB1EB1E8DEA2A95F3DF4 /* libPods-ReatNativeTrainingTests.a */; };
 		4B60856E886CC28121FEB8B7 /* libPods-ReatNativeTraining-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32233B9798633E7FDE77200D /* libPods-ReatNativeTraining-tvOSTests.a */; };
 		7013F5458E17612BFAE08DC2 /* libPods-ReatNativeTraining.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D933A4D2E636A6868A5F2C8 /* libPods-ReatNativeTraining.a */; };
+		7C9F39E62379FEB100321186 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9F39E52379FEB100321186 /* MapKit.framework */; };
 		FDC440FDADEBFBCBE134549D /* libPods-ReatNativeTraining-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED61DC639F7F4462B1DCDC17 /* libPods-ReatNativeTraining-tvOS.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		53856FC7CA8E7B97D50553D0 /* Pods-ReatNativeTraining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReatNativeTraining.release.xcconfig"; path = "Target Support Files/Pods-ReatNativeTraining/Pods-ReatNativeTraining.release.xcconfig"; sourceTree = "<group>"; };
 		5B8ECB1EB1E8DEA2A95F3DF4 /* libPods-ReatNativeTrainingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReatNativeTrainingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F51C6E9A2A861A6A460BE9 /* Pods-ReatNativeTraining-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReatNativeTraining-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ReatNativeTraining-tvOS/Pods-ReatNativeTraining-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		7C9F39E52379FEB100321186 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		7D24886FB85E2785FF119D65 /* Pods-ReatNativeTrainingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReatNativeTrainingTests.release.xcconfig"; path = "Target Support Files/Pods-ReatNativeTrainingTests/Pods-ReatNativeTrainingTests.release.xcconfig"; sourceTree = "<group>"; };
 		A870ABD0A3D79E82E845E61A /* Pods-ReatNativeTraining-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReatNativeTraining-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ReatNativeTraining-tvOS/Pods-ReatNativeTraining-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		B87E3BD3E8A86B9FCFCAC68D /* Pods-ReatNativeTraining-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReatNativeTraining-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ReatNativeTraining-tvOSTests/Pods-ReatNativeTraining-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9F39E62379FEB100321186 /* MapKit.framework in Frameworks */,
 				7013F5458E17612BFAE08DC2 /* libPods-ReatNativeTraining.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,7 +137,6 @@
 				EB9F2D0C0BC6076DC19E7FB3 /* Pods-ReatNativeTrainingTests.debug.xcconfig */,
 				7D24886FB85E2785FF119D65 /* Pods-ReatNativeTrainingTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -155,6 +157,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7C9F39E52379FEB100321186 /* MapKit.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				4D933A4D2E636A6868A5F2C8 /* libPods-ReatNativeTraining.a */,
@@ -308,6 +311,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
